@@ -154,6 +154,25 @@ section p {
 	margin-bottom: 0;
 }
 
+.illustration p {
+	text-align: justify;
+	overflow: auto;
+}
+
+.illustration img {
+	width: 10em;
+	float: right;
+	margin-left: 1em;
+	border-radius: 0.25em;
+}
+
+.illustration:nth-child(2n) img {
+	width: 10em;
+	float: left;
+	margin-left: 0;
+	margin-right: 1em;
+}
+
 /* Éléments en vedette (tête de gondole) */
 
 .vedette {
