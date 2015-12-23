@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="151.78209"
+   height="47.119205"
+   viewBox="0 0 151.7821 47.119204"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ajouter_panier.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="-11.132245"
+     inkscape:cy="31.197631"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-global="true"
+     units="px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-113.31624,-213.95776)">
+    <rect
+       style="fill:#b32671;fill-opacity:1;stroke:none;stroke-width:0.94999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4134"
+       width="151.7821"
+       height="47.119209"
+       x="113.31624"
+       y="213.95776"
+       ry="7.2972164" />
+    <path
+       style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 243.42619,219.59135 c -6.81889,0 -12.39467,5.57577 -12.39467,12.39466 l -2.98766,0 0,3.65244 0,12.69144 0,3.46108 c 0,2.02395 1.62847,3.65244 3.65241,3.65244 l 23.4574,0 c 2.02394,0 3.65487,-1.62849 3.65487,-3.65244 l 0,-3.46108 0,-12.69144 0,-3.65244 -2.98769,0 c 0,-6.81889 -5.57577,-12.39466 -12.39466,-12.39466 z m 0,4.51831 c 4.37761,0 7.87638,3.49877 7.87638,7.87635 l -8.83791,0 -6.91483,0 c 0,-4.37758 3.49875,-7.87635 7.87636,-7.87635 z m 1.66309,11.64405 c 2.86835,0 4.11356,0.95664 4.11356,0.95664 l -0.5985,2.22236 c 0,0 -1.57893,-0.82171 -3.40224,-0.82171 -1.82325,0 -3.13663,1.26811 -3.91485,2.6467 l 4.40302,0 0,2.17819 -5.11437,0 c -0.0444,0.33355 -0.0882,0.66712 -0.0882,1.02289 0,0.11115 0.0222,0.22255 0.0222,0.3336 l 4.51341,0 0,2.20027 -4.00074,0 c 0.73375,1.68988 2.22181,2.73503 4.35639,2.73503 0.84495,0 1.78057,-0.17597 2.84787,-0.59851 l 0.39982,-0.15698 0.75551,2.06781 -0.33362,0.17917 c -1.02281,0.48917 -2.42415,0.95664 -4.04732,0.95664 -3.31307,0 -5.80268,-1.98118 -6.62538,-5.18306 l -2.37934,0 0,-2.20028 2.08991,0 0,-0.33359 c 0,-0.33352 0.0441,-0.68934 0.0441,-1.02289 l -1.46684,0 0,-2.17819 1.93534,0 c 1.00058,-2.8461 3.37754,-5.00399 6.49047,-5.00399 z"
+       id="path3341"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:98.57984924px;line-height:100%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="121.12432"
+       y="234.70784"
+       id="text4136"
+       sodipodi:linespacing="100%"><tspan
+         sodipodi:role="line"
+         id="tspan4138"
+         x="121.12432"
+         y="234.70784"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.48372269px;line-height:100%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ffffff">AJOUTER</tspan><tspan
+         sodipodi:role="line"
+         x="121.12432"
+         y="253.19156"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:18.48372269px;line-height:100%;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';fill:#ffffff"
+         id="tspan4140">AU PANIER</tspan></text>
+  </g>
+</svg>
