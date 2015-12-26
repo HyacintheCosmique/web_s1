@@ -154,6 +154,10 @@ section p {
 	margin-bottom: 0;
 }
 
+a {
+	color: #B32671;
+}
+
 .illustration p {
 	text-align: justify;
 	overflow: auto;
@@ -217,9 +221,33 @@ section p {
 	margin: 0;
 }
 
-.avis textarea {
+textarea, table, input[type='text'] {
 	width: 100%;
+}
+
+textarea {
 	height: 6em;
+}
+
+table {
+	border: 1pt solid gray;
+	border-radius: 0.25em;
+}
+
+table tr:first-child {
+	font-weight: bold;
+}
+
+table tr:nth-child(2n) {
+	background-color: white;
+}
+
+table td {
+	padding: 0.25em;
+}
+
+.petitnombre {
+	max-width: 6em;
 }
 
 /* Éléments en vedette (tête de gondole) */
@@ -304,7 +332,6 @@ section p {
 }
 
 h3 {
-	text-align: center;
 	margin: 0.5em;
 }
 

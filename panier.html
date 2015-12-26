@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Truc.fr - Les objets inutiles</title>
+			<meta charset="utf-8" />
+			<link rel="stylesheet" media="screen" href="ecran.css" />
+		</title>
+	</head>
+	
+	<body>
+	
+		<nav>
+		
+			<h1><a href="index.html"><img src="logo.svg" alt="Truc.fr" /></a></h1>
+			
+			<!-- L'usage d'une balise IMG à l'intérieur d'un H1 est autorisé
+			car H1 accepte les "phrasing elements" (http://www.w3.org/TR/html-markup/h1.html)
+			dont IMG fait partie (http://www.w3.org/TR/html-markup/common-models.html#common.elem.phrasing) -->
+			
+			<ul>
+				<a href="#"><li>Culture</li></a>
+				<a href="#"><li>Design</li></a>
+				<a href="#"><li>Tech</li></a>
+				<a href="#"><li>Jeux</li></a>
+				<a href="apropos.html"><li>À propos de nous</li></a>
+				<a href="panier.html"><li class="panier">Panier (3)</li></a>
+			</ul>
+			
+			<form action="recherche.html">
+				<input name="recherche" type="text" placeholder="Recherche" />
+				<button>Ok</button>
+			</form>
+		
+		</nav>
+
+		<header>
+			<h2>Ma commande</h2>
+		</header>
+		
+		<form>
+			<section>
+				<h2>Mon panier</h2>
+						
+				<table>
+					<th>
+						<td>Produit</td>
+						<td>Quantité</td>
+						<td>Prix unitaire TTC</td>
+						<td>Prix total TTC</td>
+						<td>Options</td>
+					</th>
+					<tr>
+						<td>24351109</td>
+						<td><a href="produit.html">Lampe noire</a></td>
+						<td>2</td>
+						<td>139,99</td>
+						<td>279.98</td>
+						<td><button>Supprimer</button></td>
+					</tr>
+					<tr>
+						<td>65390877</td>
+						<td><a href="produit.html">Cube paradoxal</a></td>
+						<td>1</td>
+						<td>29,99</td>
+						<td>29,99</td>
+						<td><button>Supprimer</button></td>
+					</tr>
+					<tr>
+						<td>30760942</td>
+						<td><a href="produit.html">PC en carton</a></td>
+						<td>1</td>
+						<td>990,00</td>
+						<td>990,00</td>
+						<td><button>Supprimer</button></td>
+					</tr>
+					<tr>
+						<td colspan="6">Total de 1299,97 € TTC</td>
+					</tr>
+				</table>
+			
+			</section>
+
+			<section>
+				<h2>Livraison</h2>
+			
+				<h3>Méthode</h3>
+			
+				<select>
+					<option>Livraison gratuite (délai de 15 jours)</option>
+					<option>Livraison rapide 24h à 19,99 €</option>
+				</select>
+			
+				<h3>Coordonnées</h3>
+		
+				<table>
+					<tr>
+						<td colspan="3"><input type="text" name="adresse1" placeholder="Adresse 1" /></td>
+					</tr>
+					<tr>
+						<td colspan="3"><input type="text" name="adresse2" placeholder="Adresse 2" /></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="codepostal" placeholder="Code postal" maxlength="5" /></td>
+						<td><input type="text" name="ville" placeholder="Ville" /></td>
+						<td><input type="text" name="pays" placeholder="Pays" /></td>
+					</tr>
+				</table>
+			</section>
+
+			<section>
+				<h2>Règlement</h2>
+			
+				<div>
+					<label>Code CB</label>
+					<input type="text" name="code1" maxlength="4" class="petitnombre" />
+					<input type="text" name="code2" maxlength="4" class="petitnombre" />
+					<input type="text" name="code3" maxlength="4" class="petitnombre" />
+					<input type="text" name="code4" maxlength="4" class="petitnombre" />
+				</div>
+			
+				<div>
+					<label>Cryptogramme visuel : </label>
+					<input type="text" name="cryptocarte" maxlength="3" class="petitnombre" />
+				</div>
+			
+				<div>
+					<label>Date d'expiration : </label>
+					<select>
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+					</select>
+					<select>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+					</select>
+				</div>
+			</section>
+			
+			<section>
+				<h2>Confirmation</h2>
+				<button>Continuer mes achats</button>
+				<button>Confirmer ma commande</button>
+			</section>
+		</form>
+		
+		<footer>
+			<p>La livraison est offerte en France métropolitaine, en Belgique et en Suisse romande.</p>
+			<p><img src="logo_ssl.gif" alt="Paiement sécurisé" /></p>
+			<p>Truc.fr est une société au capital d'une certaine somme en euros. En vertu de la loi vous êtes autorisés, si vous le souhaitez, à nous livrer des informations personnelles ainsi que passer des commandes ou faire des dons.</p>
+		</footer>
+		
+	</body>
+</html>
