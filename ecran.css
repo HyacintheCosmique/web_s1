@@ -26,7 +26,7 @@ img {
 /* Menu */
 
 nav {
-	background: #CC2B81;
+	background: #B32671;
 	background: linear-gradient(to bottom, #CC2B81 0%, #B32671 100%);
 	box-shadow: 0 0 0.5em black;
 	font-size: 0.9em;
@@ -45,33 +45,37 @@ nav a {
 	text-decoration: none;
 }
 
-nav h1 {
+nav > a {
 	margin: 0;
 	font-size: 1em;
+	position: absolute;
 }
 
-nav h1 img {
-	position: fixed;
+nav a img {
 	height: 4em;
 }
 
 nav ul {
 	text-align: center;
 	margin: 0;
+	padding: 0;
 }
 
 nav ul li {
 	display: inline-block;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
 	line-height: 4em;
-	
 	background: transparent;
 	transition: 0.4s;
 }
 
+nav ul li a {
+	padding-left: 1.5em;
+  padding-right: 1.5em;
+	display: inline-block;
+}
+
 @media screen and (orientation:landscape) and (max-width: 1200px) {
-	nav ul li {
+	nav ul li a {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
@@ -86,6 +90,12 @@ nav ul li.panier {
 	border-left: 1px solid rgba(255,255,255,0.2);
 	border-right: 1px solid rgba(255,255,255,0.2);
 	font-weight: bold;
+}
+
+nav form {
+	position: fixed;
+	top: 1.2em;
+	right: 1.2em;
 }
 
 nav form button {
@@ -115,12 +125,6 @@ nav form input[type=text]:hover, nav form input[type=text]:focus {
 	transition: 0.1s;
 }
 
-nav form {
-	position: fixed;
-	top: 1.2em;
-	right: 1.2em;
-}
-
 /* Header */
 
 header {
@@ -131,8 +135,12 @@ header img {
 	border-radius: 0.5em;
 }
 
+h1 {
+	font-size: 1.8em;
+}
+
 h2 {
-	font-size: 1.75em;
+	font-size: 1.65em;
 }
 
 /* Page */
@@ -167,7 +175,6 @@ a {
 	width: 10em;
 	float: right;
 	margin-left: 1em;
-	border-radius: 0.25em;
 }
 
 .illustration:nth-child(2n) img {
@@ -186,7 +193,6 @@ a {
 .produit img {
 	max-width: 15em;
 	margin-left: 1em;
-	border-radius: 0.25em;
 }
 
 .infoprix {
@@ -197,7 +203,6 @@ a {
 .avis p {
 	background-color: #FFF;
 	padding: 1em;
-	border-radius: 0.25em;
 }
 
 .avis p span {
@@ -210,7 +215,6 @@ a {
 
 .avis form {
 	background-color: white;
-	border-radius: 0.25em;
 	margin-top: 1em;
 	padding: 0.5em;
 }
@@ -231,7 +235,10 @@ textarea {
 
 table {
 	border: 1pt solid gray;
-	border-radius: 0.25em;
+}
+
+table th {
+	text-align: left;
 }
 
 table tr:first-child {
@@ -260,31 +267,33 @@ table td {
 
 .vedette a {
 	display: block;
-	width: 16em;
-	background-color: #333;
-	color: white;
+	width: 15em;
+	background-color: white;
+	color:  #333;
+	border: 1pt solid #333;
+	box-sizing: border-box;
+	text-decoration: none;
 	transition: 0.4s;
 }
 
 .recherche a {
 	margin: 0.5em;
-	width: 15em;
 }
 
 .vedette a:hover {
-	background-color: #222;
+	color: black;
+	background-color: #DDD;
 	transition: 0.1s;
 }
 
 .vedette a:nth-child(2n) {
-	color: #333;
-	background-color: white;
+	color: white;
+	background-color: #333;
 	transition: 0.4s;
 }
 
 .vedette a:nth-child(2n):hover {
-	color: black;
-	background: #DDD;
+	background: black;
 	transition: 0.1s;
 }
 
@@ -294,16 +303,6 @@ table td {
 
 .vedette a:last-child {
 	border-radius: 0  0.25em 0.25em 0;
-}
-
-.recherche a,
-.recherche a:first-child,
-.recherche a:last-child {
-	border-radius: 0.25em;
-}
-
-.vedette a {
-	text-decoration: none;
 }
 
 .promo a {
@@ -341,4 +340,160 @@ footer {
 	font-size: 0.8em;
 	text-align: center;
 	color: #444;
+}
+
+/* Effets spéciaux */
+
+table,
+.avis form,
+.avis p,
+.produit img,
+.illustration img,
+.recherche a,
+.recherche a:first-child,
+.recherche a:last-child {
+	border-radius: 0.25em;
+}
+
+
+
+/* RÈGLES RESPONSIVE DESIGN */
+
+@keyframes animationmenu {
+	0%, 50% {
+		min-height: 4em;
+		height: 4em;
+	}
+	100% {
+		min-height: 100vh;
+		height: 100vh;
+	}
+}
+
+@media screen and (orientation: portrait), (max-width: 930px) {
+	body {
+		margin-top: 0;
+		max-width: none;
+	}
+
+	/* Menu */
+
+	nav {
+		position: relative;
+		height: auto;
+		min-height: 100vh;
+		overflow: hidden;
+		transition: 0.4s;
+		padding-bottom: 1em;
+		box-shadow: none;
+		animation-name: animationmenu;
+		animation-duration: 1s;
+	}
+
+	nav a {
+		position: relative;
+		display: block;
+		text-align: center;
+	}
+
+	nav ul li {
+		display: block;
+	}
+	
+	nav ul li a {
+		width: 100%;
+		padding: 0;
+	}
+
+	nav form {
+		position: initial;
+		margin: 1em;
+		text-align: center;
+	}
+
+	nav form input[type='text'] {
+		min-width: 70%;
+		padding-right: 0.5em;
+	}
+
+	nav form button {
+		display: none;
+	}
+
+	/* Header */
+
+	header img {
+		border-radius: 0;
+	}
+
+	/* Contenu */
+
+	h1 {
+		margin: 0.5em;
+	}
+
+	h1, h2 {
+		text-align: center;
+	}
+
+	header, footer {
+		padding: 1em;
+		background: #DDD;
+	}
+
+	section {
+		border-radius: 0;
+		background: white;
+		border-bottom: 5pt solid #B32671;
+		margin: 0;
+	}
+
+	section h2 {
+		margin-top: 0.5em;
+	}
+
+	.produit div {
+		float: none;
+		text-align: center;
+	}
+	
+	.produit img {
+		margin: 0;
+	}
+	
+	.avis > p {
+		border: 1pt solid gray;
+	}
+	
+	.illustration img,
+	.illustration:nth-child(2n) img {
+		float: none;
+		display: block;
+		margin: auto;
+		margin-bottom: 1em;
+	}
+	
+	table {
+		border: 0;
+	}
+	
+	table td:first-child,
+	table th:first-child,
+	table th:nth-child(4),
+	table td:nth-child(4) {
+		display: none;
+	}
+	
+	/* Vedette */
+
+	.vedette a {
+		width: 100%;
+		margin: 1em;
+	}
+
+	.vedette a,
+	.vedette a:first-child,
+	.vedette a:last-child {
+		border-radius: 0.25em;
+	}
 }
